@@ -1,6 +1,8 @@
 # macOS crossover-sources wine build script
 
-follow [this](https://codetinkering.com/switch-homebrew-arm-x86/) first to install homebrew arm
+follow [this](https://codetinkering.com/switch-homebrew-arm-x86/) first to install homebrew arm.
+
+based on [Gcenx/crossover-wine-ci](https://github.com/Gcenx/crossover-wine-ci), run build.sh.
 
 ### why not macports? 
 
