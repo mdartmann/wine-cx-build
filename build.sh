@@ -90,5 +90,5 @@ make -j$(sysctl -n hw.ncpu 2>/dev/null)
 popd
 
 pushd "${BUILDROOT}"/winecx-${CROSS_OVER_VERSION}
-make install-lib DESTDIR="${INSTALLROOT}/${WINE_INSTALLATION}"
+make install-image DESTDIR="${INSTALLROOT}/${WINE_INSTALLATION}"
 popd
